@@ -1,0 +1,14 @@
+de\uos\se\prom\dsmproject\entity\Artifacttype.class
+de\uos\se\prom\dsmproject\da\ProjectAccess.class
+de\uos\se\prom\dsmproject\da\entity\PersistedProject.class
+de\uos\se\prom\dsmproject\entity\Project.class
+de\uos\se\prom\dsmproject\da\entity\PersistedArtifact.class
+de\uos\se\prom\dsmproject\entity\Artifact.class
+de\uos\se\prom\dsmproject\da\entity\PersistedDependency.class
+de\uos\se\prom\dsmproject\da\entity\PersistedView.class
+de\uos\se\prom\dsmproject\da\entity\PersistedTypesFactory.class
+de\uos\se\prom\dsmproject\entity\Dependency.class
+de\uos\se\prom\dsmproject\entity\DsmSorting.class
+de\uos\se\prom\dsmproject\da\entity\PersistedArtifacttype.class
+de\uos\se\prom\dsmproject\da\entity\PersistedTypesDefactory.class
+de\uos\se\prom\dsmproject\entity\View.class
