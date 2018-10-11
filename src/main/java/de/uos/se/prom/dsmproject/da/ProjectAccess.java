@@ -67,7 +67,7 @@ public class ProjectAccess {
         // Get file version from root tag
         Element root = (Element) doc.getElementsByTagName(TAG_ROOT).item(0);
         String fileVersion = root.getAttribute(ATTRIBUTE_VERSION);
-        if (null == fileVersion) {
+        if (fileVersion.isEmpty()) {
             fileVersion = ATTRIBUTE_VERSION_MIN_VALUE;
         }
 
