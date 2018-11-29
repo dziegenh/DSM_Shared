@@ -80,7 +80,8 @@ public class PersistedTypesDefactory {
     }
 
     private Artifact create(PersistedArtifact pArtifact) {
-        Artifacttype artifacttype = this.nameToTypes.get(pArtifact.typeName);
+        
+    	Artifacttype artifacttype = this.nameToTypes.get(pArtifact.typeName);
 
         if (null == artifacttype) {
             artifacttype = unknownType;
