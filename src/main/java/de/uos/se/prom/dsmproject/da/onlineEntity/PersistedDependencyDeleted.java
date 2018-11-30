@@ -5,6 +5,13 @@ import javax.xml.bind.annotation.XmlRootElement;
 
 import de.uos.se.prom.dsmproject.da.entity.PersistedDependency;
 
+/**
+ * This Class is for Serialization when Dependency is deleted
+ * @author Markus Mohr
+ *
+ */
+
+
 @XmlRootElement
 public class PersistedDependencyDeleted {
 	

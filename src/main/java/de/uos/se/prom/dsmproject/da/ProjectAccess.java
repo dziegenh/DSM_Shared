@@ -50,9 +50,6 @@ public class ProjectAccess {
     @Deprecated
     private final boolean COMPRESS_IMAGES = false;
 
-    // Server Timestamp - Default Value is 0
-    //private String serverTimestamp = "0"; 
-    
     /**
      * FA02
      */
@@ -98,7 +95,7 @@ public class ProjectAccess {
     /**
      * Load Project represented as String used for Webserver
      * @param project
-     * @return
+     * @return Project
      * @throws SAXException
      * @throws ParserConfigurationException
      * @throws IOException
@@ -145,8 +142,8 @@ public class ProjectAccess {
     
     /**
      * save Project without Timestamp
-     * @param project
-     * @param file
+     * @param project Project
+     * @param file File
      * @throws TransformerException
      * @throws ParserConfigurationException
      */
@@ -193,8 +190,8 @@ public class ProjectAccess {
     
     /**
      * Get Timestamp of serialized Project represented as String
-     * @param project
-     * @return
+     * @param project Project
+     * @return Timestamp
      * @throws ParserConfigurationException
      * @throws SAXException
      * @throws IOException
@@ -222,8 +219,8 @@ public class ProjectAccess {
     
     /**
      * Get Timestamp of serialized Project represented as File
-     * @param project
-     * @return
+     * @param project Project
+     * @return Timestamp
      * @throws ParserConfigurationException
      * @throws SAXException
      * @throws IOException
@@ -250,30 +247,5 @@ public class ProjectAccess {
     }
     
     
-    
-    /**
-     * Get Server Timestamp and Reset to Default Value
-     * @return Timestamp
-     
-    public String getServerTimestamp() {
-    	String timestamp = this.serverTimestamp;
-    	/*
-    	 * Timestamp must be reseted because it can be that the Project will be saved local
-    	 * after received from Server. When saved local than should be no serverTimestamp in exported XML File.
-    	 * 
-    	 
-    	this.serverTimestamp = "0";
-    	return timestamp;
-    	
-    }
-	
-    
-   
-     * Set Server Timestamp
-     * @param timestamp
-     
-    public void setServerTimestamp(String timestamp) {
-    	this.serverTimestamp = timestamp;
-    }
-    */
+
 }

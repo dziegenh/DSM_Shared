@@ -5,6 +5,12 @@ import javax.xml.bind.annotation.XmlRootElement;
 
 import de.uos.se.prom.dsmproject.da.entity.PersistedArtifact;
 
+/**
+ * This Class is for Serialization when Artifact is edited
+ * @author Markus Mohr
+ *
+ */
+
 @XmlRootElement
 public class PersistedArtifactEdited {
 	

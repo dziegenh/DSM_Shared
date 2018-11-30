@@ -4,6 +4,12 @@ import java.util.List;
 
 import javax.xml.bind.annotation.*;
 
+/**
+ * This Class is for Serialization of the Project List
+ * @author Markus Mohr
+ *
+ */
+
 @XmlRootElement(name = "projectList")
 public class ProjectList {
 	
