@@ -234,7 +234,7 @@ public class ProjectAccess {
         //read this - http://stackoverflow.com/questions/13786607/normalization-in-dom-parsing-with-java-how-does-it-work
         doc.getDocumentElement().normalize();
         
-      //Default Value for Timestamp is 0
+        //Default Value for Timestamp is 0
         String t = "0";
         // Get server Timestamp if exists
         Element serverTimestamp = (Element) doc.getElementsByTagName(TAG_SERVERTIMESTAMP).item(0);
